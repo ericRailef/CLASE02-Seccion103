@@ -1,0 +1,161 @@
+
+/* Propiedad que se aplicará a todo el documento */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 
+=====body===== */
+
+body{
+    /* cambio de fuente */
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#f4f4f4;
+  color:#333;  
+}
+/* 
+=====navbar===== */
+
+nav{
+    background-color: #1e293b;
+    color: white;
+    padding: 20px;
+
+    /* flex */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color:aqua;
+}
+/* 
+=====header===== */
+
+header{
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+
+}
+
+header p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+header button{
+    background-color: aqua;
+    border:none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+header button:hover{
+    background-color: aquamarine;
+}
+
+/* =====main===== */
+
+main {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    gap:30px;
+}
+
+section{
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    flex: 1;
+
+}
+
+section h2{
+    margin-bottom: 15px;
+    color: #0f172a;
+
+}
+
+section p {
+    line-height: 1.6;
+}
+/* 
+#TituloPrincipal {
+    color: violet;
+}
+
+.ParrafoHeader{
+    color: chartreuse;
+} */
+
+/* =====Formulario===== */
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+form textarea{
+    resize: vertical;
+    height: 100px;
+}
+
+form button{
+    margin-top: 15px;
+    color: white;
+    border: none;
+    padding: 12px;
+    background-color: #0f172a;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color:#333;
+}
+
+/* =====footer====== */
+footer {
+    background-color: #1e293b;
+    color:white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
